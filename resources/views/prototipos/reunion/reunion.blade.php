@@ -15,15 +15,15 @@
         </form>
     </div>
     <div class="container">
-        <h1>Start a New Collaboration</h1>
-        <a id="createBtn" class="boton" href="{{ route('reunion.create') }}">Create Collaboration</a>
+        <h1>Iniciar una nueva Colaboracion</h1>
+        <a id="createBtn" class="boton" href="{{ route('reunion.create') }}">Crear Colaboracion</a>
         
 
         <form id="formulario" action="{{ route('reunion.join') }}" method="post">
             @csrf
-            <h1>Join a Collaboration</h1>            
+            <h1>Unirse a una Colaboracion</h1>            
             <input type="text" id="collaborationId" name="collaborationId" placeholder="pegar aqui link">
-            <button type="submit" id="joinBtn">join Collaboration</button>            
+            <button type="submit" id="joinBtn">union Colaborativa</button>            
         </form>        
         
     </div>
